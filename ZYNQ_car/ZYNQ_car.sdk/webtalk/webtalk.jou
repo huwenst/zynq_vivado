@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# 
+# Start of session at: Tue Oct 22 16:39:05 2019
+# Process ID: 5732
+# Current directory: E:/ZYNQ/ZYNQ_car_NoOS_EES-288B-v1.1_Vivado2017.2/ZYNQ_car/ZYNQ_car.sdk/webtalk
+# Command line: wbtcv.exe -mode batch -source sdk_webtalk.tcl
+# Log file: E:/ZYNQ/ZYNQ_car_NoOS_EES-288B-v1.1_Vivado2017.2/ZYNQ_car/ZYNQ_car.sdk/webtalk/webtalk.log
+# Journal file: E:/ZYNQ/ZYNQ_car_NoOS_EES-288B-v1.1_Vivado2017.2/ZYNQ_car/ZYNQ_car.sdk/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

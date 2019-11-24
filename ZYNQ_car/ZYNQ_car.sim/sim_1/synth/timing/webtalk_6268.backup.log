@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Webtalk v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
+# IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+# Start of session at: Thu Dec 14 10:40:36 2017
+# Process ID: 6268
+# Current directory: D:/Document/E_elements/EES-288/TCL_ZYBO_4/zrobot_v4_2015.4.sim/sim_1/synth/timing
+# Command line: wbtcv.exe -mode batch -source D:/Document/E_elements/EES-288/TCL_ZYBO_4/zrobot_v4_2015.4.sim/sim_1/synth/timing/xsim.dir/system_wrapper_time_synth/webtalk/xsim_webtalk.tcl -notrace
+# Log file: D:/Document/E_elements/EES-288/TCL_ZYBO_4/zrobot_v4_2015.4.sim/sim_1/synth/timing/webtalk.log
+# Journal file: D:/Document/E_elements/EES-288/TCL_ZYBO_4/zrobot_v4_2015.4.sim/sim_1/synth/timing\webtalk.jou
+#-----------------------------------------------------------
+source D:/Document/E_elements/EES-288/TCL_ZYBO_4/zrobot_v4_2015.4.sim/sim_1/synth/timing/xsim.dir/system_wrapper_time_synth/webtalk/xsim_webtalk.tcl -notrace
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 61.449 ; gain = 0.230
+INFO: [Common 17-206] Exiting Webtalk at Thu Dec 14 10:40:43 2017...

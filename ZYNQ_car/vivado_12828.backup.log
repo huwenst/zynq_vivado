@@ -1,0 +1,55 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Tue Oct 29 10:41:24 2019
+# Process ID: 12828
+# Current directory: E:/ZYNQ/ZYNQ_car_NoOS_EES-288B-v1.1_Vivado2017.2/ZYNQ_car
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10432 E:\ZYNQ\ZYNQ_car_NoOS_EES-288B-v1.1_Vivado2017.2\ZYNQ_car\ZYNQ_car.xpr
+# Log file: E:/ZYNQ/ZYNQ_car_NoOS_EES-288B-v1.1_Vivado2017.2/ZYNQ_car/vivado.log
+# Journal file: E:/ZYNQ/ZYNQ_car_NoOS_EES-288B-v1.1_Vivado2017.2/ZYNQ_car\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/ZYNQ/ZYNQ_car_NoOS_EES-288B-v1.1_Vivado2017.2/ZYNQ_car/ZYNQ_car.xpr
+INFO: [Project 1-313] Project file moved from 'E:/ZYNQ/ZYNQ_car_≥¨…˘≤®±‹’œ_NoOS_EES-288B-v1.1_Vivado2017.2/ZYNQ_car' since last save.
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-2] IP Repository Path: Could not find the directory 'E:/ZYNQ/ZYNQ_car_NoOS_EES-288B-v1.1_Vivado2017.2/SmartCar_IP', nor could it be found using path 'E:/ZYNQ/ZYNQ_car_≥¨…˘≤®±‹’œ_NoOS_EES-288B-v1.1_Vivado2017.2/SmartCar_IP'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'e:/ZYNQ/ZYNQ_car_NoOS_EES-288B-v1.1_Vivado2017.2/SmartCar_IP'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2019.1/data/ip'.
+WARNING: [BD 41-1661] One or more IPs have been locked in the design 'system.bd'. Please run report_ip_status for more details and recommendations on how to fix this issue.
+List of locked IPs:
+system_axi_gpio_0_0
+system_zcar_servo_v1_0_0_0
+system_optical_0
+system_auto_pc_0
+system_processing_system7_0_axi_periph_0
+system_Motor_Ctrl_L_0
+system_rst_processing_system7_0_100M_0
+system_xlconcat_0_0
+system_ultrasonic_0_0
+system_auto_pc_4
+system_Motor_Ctrl_v1_0_0_0
+system_axi_gpio_1_1
+system_Motor_Ctrl_R_0
+system_auto_pc_5
+system_Motor_Ctrl_v1_0_0_1
+system_xbar_0
+system_auto_pc_6
+system_auto_pc_3
+system_auto_pc_2
+system_auto_pc_1
+system_auto_pc_7
+system_axi_gpio_1_0
+system_processing_system7_0_0
+
+open_project: Time (s): cpu = 00:00:29 ; elapsed = 00:00:50 . Memory (MB): peak = 844.832 ; gain = 233.078
+update_compile_order -fileset sources_1
+launch_sdk -workspace E:/ZYNQ/ZYNQ_car_NoOS_EES-288B-v1.1_Vivado2017.2/ZYNQ_car/ZYNQ_car.sdk -hwspec E:/ZYNQ/ZYNQ_car_NoOS_EES-288B-v1.1_Vivado2017.2/ZYNQ_car/ZYNQ_car.sdk/system_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace E:/ZYNQ/ZYNQ_car_NoOS_EES-288B-v1.1_Vivado2017.2/ZYNQ_car/ZYNQ_car.sdk -hwspec E:/ZYNQ/ZYNQ_car_NoOS_EES-288B-v1.1_Vivado2017.2/ZYNQ_car/ZYNQ_car.sdk/system_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Oct 29 11:20:59 2019...

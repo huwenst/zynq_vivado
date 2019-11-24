@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Tue Oct 22 14:10:09 2019
+# Process ID: 1224
+# Current directory: E:/ZYNQ/ZYNQ_car_≥¨…˘≤®±‹’œ_NoOS_EES-288B-v1.1_Vivado2017.2/ZYNQ_car
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10860 E:\ZYNQ\ZYNQ_car_≥¨…˘≤®±‹’œ_NoOS_EES-288B-v1.1_Vivado2017.2\ZYNQ_car\ZYNQ_car.xpr
+# Log file: E:/ZYNQ/ZYNQ_car_≥¨…˘≤®±‹’œ_NoOS_EES-288B-v1.1_Vivado2017.2/ZYNQ_car/vivado.log
+# Journal file: E:/ZYNQ/ZYNQ_car_≥¨…˘≤®±‹’œ_NoOS_EES-288B-v1.1_Vivado2017.2/ZYNQ_car\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/ZYNQ/ZYNQ_car_≥¨…˘≤®±‹’œ_NoOS_EES-288B-v1.1_Vivado2017.2/ZYNQ_car/ZYNQ_car.xpr
+update_compile_order -fileset sources_1
+launch_sdk -workspace E:/ZYNQ/ZYNQ_car_≥¨…˘≤®±‹’œ_NoOS_EES-288B-v1.1_Vivado2017.2/ZYNQ_car/ZYNQ_car.sdk -hwspec E:/ZYNQ/ZYNQ_car_≥¨…˘≤®±‹’œ_NoOS_EES-288B-v1.1_Vivado2017.2/ZYNQ_car/ZYNQ_car.sdk/system_wrapper.hdf
+launch_sdk -workspace E:/ZYNQ/ZYNQ_car_≥¨…˘≤®±‹’œ_NoOS_EES-288B-v1.1_Vivado2017.2/ZYNQ_car/ZYNQ_car.sdk -hwspec E:/ZYNQ/ZYNQ_car_≥¨…˘≤®±‹’œ_NoOS_EES-288B-v1.1_Vivado2017.2/ZYNQ_car/ZYNQ_car.sdk/system_wrapper.hdf

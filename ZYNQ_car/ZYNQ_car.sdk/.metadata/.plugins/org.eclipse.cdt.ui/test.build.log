@@ -1,0 +1,48 @@
+14:16:08 **** Auto Build of configuration Debug for project test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building file: ../src/ultrasonic_avoid_obstacle.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ultrasonic_avoid_obstacle.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ultrasonic_avoid_obstacle.d" -MT"src/ultrasonic_avoid_obstacle.o" -o "src/ultrasonic_avoid_obstacle.o" "../src/ultrasonic_avoid_obstacle.c"
+'Finished building: ../src/ultrasonic_avoid_obstacle.c'
+' '
+'Building file: ../src/zrcar.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/zrcar.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/zrcar.d" -MT"src/zrcar.o" -o "src/zrcar.o" "../src/zrcar.c"
+../src/zrcar.c: In function 'zrcar_opt_init':
+../src/zrcar.c:132:9: warning: variable 'Status' set but not used [-Wunused-but-set-variable]
+     int Status;
+         ^~~~~~
+../src/zrcar.c: In function 'zrcar_gpio_init':
+../src/zrcar.c:231:6: warning: unused variable 'ja_data' [-Wunused-variable]
+  int ja_data = XGpio_DiscreteRead(&GPIO, 1);//read from JA.
+      ^~~~~~~
+../src/zrcar.c:226:6: warning: unused variable 'Status' [-Wunused-variable]
+  int Status = XGpio_Initialize(&GPIO, XPAR_GPIO_1_DEVICE_ID);
+      ^~~~~~
+../src/zrcar.c: In function 'zrcar_bluetooth_init':
+../src/zrcar.c:210:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/zrcar.c'
+' '
+'Building target: test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../test_bsp/ps7_cortexa9_0/lib -o "test.elf"  ./src/platform.o ./src/ultrasonic_avoid_obstacle.o ./src/zrcar.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size test.elf  |tee "test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  26008	   1224	  22696	  49928	   c308	test.elf
+'Finished building: test.elf.size'
+' '
+
+14:16:10 Build Finished (took 2s.334ms)
+
